@@ -14,6 +14,11 @@
 		F148869827881A5B005A1EEF /* AppetizerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F148869727881A5B005A1EEF /* AppetizerListView.swift */; };
 		F148869A27881B4C005A1EEF /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F148869927881B4C005A1EEF /* OrderView.swift */; };
 		F148869C27881B94005A1EEF /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F148869B27881B94005A1EEF /* AccountView.swift */; };
+		F148869E2788242E005A1EEF /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F148869D2788242E005A1EEF /* Appetizer.swift */; };
+		F14886A027882F4F005A1EEF /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F148869F27882F4F005A1EEF /* AppetizerListCell.swift */; };
+		F14886A227883261005A1EEF /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14886A127883261005A1EEF /* NetworkManager.swift */; };
+		F14886A427883579005A1EEF /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14886A327883579005A1EEF /* APError.swift */; };
+		F14886A627884558005A1EEF /* ApperizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14886A527884558005A1EEF /* ApperizerListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +30,11 @@
 		F148869727881A5B005A1EEF /* AppetizerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListView.swift; sourceTree = "<group>"; };
 		F148869927881B4C005A1EEF /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		F148869B27881B94005A1EEF /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		F148869D2788242E005A1EEF /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
+		F148869F27882F4F005A1EEF /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
+		F14886A127883261005A1EEF /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		F14886A327883579005A1EEF /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
+		F14886A527884558005A1EEF /* ApperizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApperizerListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +69,14 @@
 			children = (
 				F148868927881645005A1EEF /* AppetizersApp.swift */,
 				F148868B27881645005A1EEF /* AppetizersTabView.swift */,
+				F14886A527884558005A1EEF /* ApperizerListViewModel.swift */,
 				F148869727881A5B005A1EEF /* AppetizerListView.swift */,
+				F148869F27882F4F005A1EEF /* AppetizerListCell.swift */,
 				F148869B27881B94005A1EEF /* AccountView.swift */,
 				F148869927881B4C005A1EEF /* OrderView.swift */,
+				F148869D2788242E005A1EEF /* Appetizer.swift */,
+				F14886A127883261005A1EEF /* NetworkManager.swift */,
+				F14886A327883579005A1EEF /* APError.swift */,
 				F148868D27881646005A1EEF /* Assets.xcassets */,
 				F148868F27881646005A1EEF /* Preview Content */,
 			);
@@ -146,8 +161,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F148869E2788242E005A1EEF /* Appetizer.swift in Sources */,
+				F14886A427883579005A1EEF /* APError.swift in Sources */,
+				F14886A027882F4F005A1EEF /* AppetizerListCell.swift in Sources */,
+				F14886A627884558005A1EEF /* ApperizerListViewModel.swift in Sources */,
 				F148868C27881645005A1EEF /* AppetizersTabView.swift in Sources */,
 				F148869A27881B4C005A1EEF /* OrderView.swift in Sources */,
+				F14886A227883261005A1EEF /* NetworkManager.swift in Sources */,
 				F148868A27881645005A1EEF /* AppetizersApp.swift in Sources */,
 				F148869827881A5B005A1EEF /* AppetizerListView.swift in Sources */,
 				F148869C27881B94005A1EEF /* AccountView.swift in Sources */,
