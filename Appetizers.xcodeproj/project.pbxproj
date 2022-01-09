@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35542E89278B4C1E00C206F4 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35542E88278B4C1E00C206F4 /* RemoteImage.swift */; };
 		3572417F278937ED004719D1 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3572417E278937ED004719D1 /* Alert.swift */; };
 		3572418127894ACE004719D1 /* ColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3572418027894ACE004719D1 /* ColorExt.swift */; };
 		3572418327894BC9004719D1 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3572418227894BC9004719D1 /* LoadingView.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		35542E88278B4C1E00C206F4 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 		3572417E278937ED004719D1 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		3572418027894ACE004719D1 /* ColorExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExt.swift; sourceTree = "<group>"; };
 		3572418227894BC9004719D1 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				3572417E278937ED004719D1 /* Alert.swift */,
 				3572418027894ACE004719D1 /* ColorExt.swift */,
 				3572418227894BC9004719D1 /* LoadingView.swift */,
+				35542E88278B4C1E00C206F4 /* RemoteImage.swift */,
 				F148868D27881646005A1EEF /* Assets.xcassets */,
 				F148868F27881646005A1EEF /* Preview Content */,
 			);
@@ -179,6 +182,7 @@
 				F148869A27881B4C005A1EEF /* OrderView.swift in Sources */,
 				F14886A227883261005A1EEF /* NetworkManager.swift in Sources */,
 				F148868A27881645005A1EEF /* AppetizersApp.swift in Sources */,
+				35542E89278B4C1E00C206F4 /* RemoteImage.swift in Sources */,
 				3572417F278937ED004719D1 /* Alert.swift in Sources */,
 				F148869827881A5B005A1EEF /* AppetizerListView.swift in Sources */,
 				3572418327894BC9004719D1 /* LoadingView.swift in Sources */,
