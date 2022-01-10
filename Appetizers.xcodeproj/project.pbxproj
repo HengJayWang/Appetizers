@@ -26,6 +26,9 @@
 		F14886B7278BFD46005A1EEF /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14886B6278BFD46005A1EEF /* AppetizerDetailView.swift */; };
 		F14886BA278C0961005A1EEF /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14886B9278C0961005A1EEF /* APButton.swift */; };
 		F14886BC278C0A43005A1EEF /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14886BB278C0A43005A1EEF /* XDismissButton.swift */; };
+		F14886BE278C13A1005A1EEF /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14886BD278C13A1005A1EEF /* AccountViewModel.swift */; };
+		F14886C0278C15E0005A1EEF /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14886BF278C15E0005A1EEF /* StringExt.swift */; };
+		F14886C2278C1C11005A1EEF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14886C1278C1C11005A1EEF /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +52,9 @@
 		F14886B6278BFD46005A1EEF /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
 		F14886B9278C0961005A1EEF /* APButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APButton.swift; sourceTree = "<group>"; };
 		F14886BB278C0A43005A1EEF /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
+		F14886BD278C13A1005A1EEF /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		F14886BF278C15E0005A1EEF /* StringExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExt.swift; sourceTree = "<group>"; };
+		F14886C1278C1C11005A1EEF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +128,7 @@
 		F14886A9278BE6E2005A1EEF /* AccountView */ = {
 			isa = PBXGroup;
 			children = (
+				F14886BD278C13A1005A1EEF /* AccountViewModel.swift */,
 				F148869B27881B94005A1EEF /* AccountView.swift */,
 			);
 			path = AccountView;
@@ -160,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				3572418027894ACE004719D1 /* ColorExt.swift */,
+				F14886BF278C15E0005A1EEF /* StringExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -184,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				F148869D2788242E005A1EEF /* Appetizer.swift */,
+				F14886C1278C1C11005A1EEF /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -295,11 +304,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F148869E2788242E005A1EEF /* Appetizer.swift in Sources */,
+				F14886C0278C15E0005A1EEF /* StringExt.swift in Sources */,
 				3572418127894ACE004719D1 /* ColorExt.swift in Sources */,
 				F14886BC278C0A43005A1EEF /* XDismissButton.swift in Sources */,
 				F14886A427883579005A1EEF /* APError.swift in Sources */,
+				F14886BE278C13A1005A1EEF /* AccountViewModel.swift in Sources */,
 				F14886A027882F4F005A1EEF /* AppetizerListCell.swift in Sources */,
 				F14886A627884558005A1EEF /* AppetizerListViewModel.swift in Sources */,
+				F14886C2278C1C11005A1EEF /* User.swift in Sources */,
 				F148868C27881645005A1EEF /* AppetizersTabView.swift in Sources */,
 				F14886BA278C0961005A1EEF /* APButton.swift in Sources */,
 				F148869A27881B4C005A1EEF /* OrderView.swift in Sources */,
