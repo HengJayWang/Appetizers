@@ -32,6 +32,7 @@
 		F14886C5278C3027005A1EEF /* EmptyOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14886C4278C3027005A1EEF /* EmptyOrder.swift */; };
 		F14886C7278C358C005A1EEF /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14886C6278C358C005A1EEF /* Order.swift */; };
 		F14886C9278D3191005A1EEF /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14886C8278D3191005A1EEF /* CustomModifiers.swift */; };
+		F14886CB278D374F005A1EEF /* ViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14886CA278D374F005A1EEF /* ViewExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +62,7 @@
 		F14886C4278C3027005A1EEF /* EmptyOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyOrder.swift; sourceTree = "<group>"; };
 		F14886C6278C358C005A1EEF /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		F14886C8278D3191005A1EEF /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
+		F14886CA278D374F005A1EEF /* ViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 			children = (
 				3572418027894ACE004719D1 /* ColorExt.swift */,
 				F14886BF278C15E0005A1EEF /* StringExt.swift */,
+				F14886CA278D374F005A1EEF /* ViewExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				F14886C0278C15E0005A1EEF /* StringExt.swift in Sources */,
 				3572418127894ACE004719D1 /* ColorExt.swift in Sources */,
 				F14886BC278C0A43005A1EEF /* XDismissButton.swift in Sources */,
+				F14886CB278D374F005A1EEF /* ViewExt.swift in Sources */,
 				F14886C7278C358C005A1EEF /* Order.swift in Sources */,
 				F14886A427883579005A1EEF /* APError.swift in Sources */,
 				F14886BE278C13A1005A1EEF /* AccountViewModel.swift in Sources */,
