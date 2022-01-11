@@ -16,7 +16,7 @@ struct LoadingView: View {
             
             ProgressView()
                 .progressViewStyle(CircularProgressViewStyle(tint: .brandPrimary))
-                .scaleEffect(3)
+                .scaleEffect(2)
         }
     }
 }
