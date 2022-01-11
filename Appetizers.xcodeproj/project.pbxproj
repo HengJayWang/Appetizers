@@ -31,6 +31,7 @@
 		F14886C2278C1C11005A1EEF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14886C1278C1C11005A1EEF /* User.swift */; };
 		F14886C5278C3027005A1EEF /* EmptyOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14886C4278C3027005A1EEF /* EmptyOrder.swift */; };
 		F14886C7278C358C005A1EEF /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14886C6278C358C005A1EEF /* Order.swift */; };
+		F14886C9278D3191005A1EEF /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14886C8278D3191005A1EEF /* CustomModifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		F14886C1278C1C11005A1EEF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		F14886C4278C3027005A1EEF /* EmptyOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyOrder.swift; sourceTree = "<group>"; };
 		F14886C6278C358C005A1EEF /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		F14886C8278D3191005A1EEF /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,6 +212,7 @@
 				F14886B8278C0954005A1EEF /* Button */,
 				F14886B4278BE7FF005A1EEF /* Image */,
 				F14886B3278BE7F7005A1EEF /* Cells */,
+				F14886C8278D3191005A1EEF /* CustomModifiers.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 				3572417F278937ED004719D1 /* Alert.swift in Sources */,
 				F148869827881A5B005A1EEF /* AppetizerListView.swift in Sources */,
 				3572418327894BC9004719D1 /* LoadingView.swift in Sources */,
+				F14886C9278D3191005A1EEF /* CustomModifiers.swift in Sources */,
 				F148869C27881B94005A1EEF /* AccountView.swift in Sources */,
 				F14886C5278C3027005A1EEF /* EmptyOrder.swift in Sources */,
 			);

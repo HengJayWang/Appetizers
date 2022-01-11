@@ -15,7 +15,7 @@ struct EmptyOrder: View {
     var body: some View {
         ZStack {
             Color(.systemBackground)
-                .ignoresSafeArea(.all)
+                .ignoresSafeArea()
             
             VStack {
                 Image(imageName)
