@@ -8,6 +8,7 @@
 import Foundation
 
 struct Appetizer: Decodable, Identifiable {
+    let uuid = UUID()
     let id: Int
     let name: String
     let description: String

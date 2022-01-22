@@ -23,4 +23,8 @@ final class Order: ObservableObject {
         items.remove(atOffsets: index)
     }
     
+    func remove(appetizer: Appetizer) {
+        items = items.filter{ $0.uuid != appetizer.uuid }
+    }
+    
 }

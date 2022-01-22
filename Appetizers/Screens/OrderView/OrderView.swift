@@ -15,18 +15,25 @@ struct OrderView: View {
         NavigationView {
             ZStack {
                 VStack {
-                    List {
-                        ForEach(order.items) { orderItem in
-                            AppetizerListCell(appetizer: orderItem)
-                        }
-                        .onDelete(perform: order.deleteItem )
+                    List(order.items) { orderItem in
+                        AppetizerListCell(appetizer: orderItem)
+                            .swipeActions {
+                                Button {
+                                    order.remove(appetizer: orderItem)
+                                } label: {
+                                    Label("Delete", systemImage: "trash")
+                                }
+                                .tint(.red)
+                            }
+//                        ForEach(order.items) { orderItem in
+//                        }
+//                        .onDelete(perform: order.deleteItem )
                     }
                     .listStyle(PlainListStyle())
                     
                     Button {
                         print("order placed")
                     } label: {
-//                        APButton(title: "$\(order.totalPrice, specifier: "%.2f") - Place Order")
                         Text("$\(order.totalPrice, specifier: "%.2f") - Place Order")
                     }
                     .modifier(StandardButtonStyle())
